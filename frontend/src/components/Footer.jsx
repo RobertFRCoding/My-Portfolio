@@ -6,6 +6,7 @@ export function Footer() {
     <NavLink to="/" className="m-3">Home</NavLink>
     <NavLink to="/aboutus" className="m-3">About Us</NavLink>
     <NavLink to="/privacy" className="m-3">Privacy</NavLink>
+    <NavLink to="/keys" className="m-3">Encriptacion</NavLink>
     <NavLink to="/TermsAndConditions" className="m-3">Terms and Conditions</NavLink>
     <SocialButtons />
 </footer>

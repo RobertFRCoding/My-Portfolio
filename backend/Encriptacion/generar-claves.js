@@ -1,8 +1,11 @@
+
+
 const { createECDH } = require("crypto")
 const args = require("yargs").argv
 const fs  = require("fs")
 console.log(args.name) 
 if (!args.name) {
+    
     console.log("falta el argumente --name")
     exit(0)
 }

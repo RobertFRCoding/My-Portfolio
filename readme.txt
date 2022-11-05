@@ -72,3 +72,8 @@
     > Abrimos archivo ./backend/explorer.js       
     > Cambiar puerto http://localhost: por puerto de "paramsNodo" 
     > 
+
+
+
+
+
