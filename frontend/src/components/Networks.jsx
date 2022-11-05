@@ -1,6 +1,5 @@
 import { useQuery } from "react-query";
 import { NavLink, Link } from "react-router-dom";
-import { Formulario } from "./Formulario"
 
 export const Networks = () => {
 
