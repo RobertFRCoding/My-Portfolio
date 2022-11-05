@@ -7,7 +7,7 @@ module.exports = router
 // toma el fichero.env y crea variables accesible por process.env.nombre
 require("dotenv").config()
 
-const web3 = new Web3("http://localhost:9606")//Modificar puerto
+const web3 = new Web3("http://localhost:9947")//Modificar puerto
 
 router.get("/ping", (req, res) => {
     res.send({fecha:new Date().toISOString()})
