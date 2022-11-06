@@ -11,7 +11,7 @@ export function Faucet() {
 
   async function enviarEth(){
     setIsLoading(true)
-    const response = await fetch(`http://localhost:3334/faucet/enviar/${cuenta}`)
+    const response = await fetch(`http://localhost:3334/Faucet/enviar/${cuenta}`)
     if (response.status == "200"){
     const datos = await response.json();
     await buscarSaldo(cuenta)

@@ -18,7 +18,7 @@ export function ExplorerH() {
     }
 
     return <div className="container">
-        <h2 className="text-center">Explorador de la cadena de Ethereum</h2>
+        <h1 className="text-center">Scan your Blockchain</h1>
         <form className="d-flex justify-content-center gap-1" onSubmit={handleSubmit(submitForm)} >
             <input {...register("data")} size={70}></input>
             <button className="btn btn-primary">Go</button>
